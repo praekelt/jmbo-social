@@ -1,5 +1,5 @@
-Panya Social
-============
+Jmbo Social
+===========
 
-Panya social app.
+Jmbo social app.
 

@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='panya-social',
-    version='0.0.5',
-    description='Panya social app.',
+    name='jmbo-social',
+    version='0.0.6',
+    description='Jmbo social app collecting 3rd party social apps.',
     long_description = open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
     author='Praekelt Foundation',
     author_email='dev@praekelt.com',
     license='BSD',
-    url='http://github.com/praekelt/panya-social',
+    url='http://github.com/praekelt/jmbo-social',
     packages = find_packages(),
     dependency_links = [
         'http://github.com/praekelt/django-socialregistration/tarball/0.4.1.tokenstore.1#egg=django-socialregistration-0.4.1.tokenstore.1',
@@ -23,7 +23,7 @@ setup(
         'django-notification',
         'django-socialregistration==0.4.1.tokenstore.1',
         'facebook-python-sdk',
-        'panya',
+        'jmbo',
     ],
     include_package_data=True,
     classifiers = [

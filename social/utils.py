@@ -55,7 +55,7 @@ def get_wall_post_attachment(obj, **kwargs):
     }
     context.update(kwargs)
     context = template.Context(context)
-    t = Template("{% load panya_inclusion_tags %}{% render_object object 'facebook_wall_post' %}")
+    t = Template("{% load jmbo_inclusion_tags %}{% render_object object 'facebook_wall_post' %}")
     result = t.render(context)
     if result:
         return eval(result)

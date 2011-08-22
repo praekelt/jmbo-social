@@ -1,7 +1,7 @@
 from django.contrib import auth
 from django.contrib.auth.models import AnonymousUser, User
 
-from panya.utils import modify_class
+from jmbo.utils import modify_class
 
 def _user_has_field_perm(user, perm, obj, field):
     anon = user.is_anonymous()
